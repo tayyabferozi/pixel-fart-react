@@ -74,6 +74,32 @@ img.nft-vector {
   max-width: 170px;
 }
 
+.frame-grid-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media screen and (min-width: 576px) {
+  .frame-grid-container > * {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .frame-grid-container > * {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+}
+
 .frame {
   background-color: #ddc;
   border: solid 5vmin #eee;
@@ -221,7 +247,11 @@ img.nft-vector {
 }
 
 .qr-container .qr {
-  max-width: 140px;
+  max-width: 80px;
+}
+
+.fancy-text-container {
+  margin: 0 0 1rem;
 }
 
 .fancy-text-container .text-box {
@@ -239,19 +269,13 @@ img.nft-vector {
 }
 
 .fancy-text-container h1 {
-  font-size: 2.5rem;
+  font-size: 1.125rem;
   font-weight: 900;
   background-color: #000;
   color: #f2f9fe;
   display: block;
   padding: 0.5em;
   text-align: center;
-}
-
-@media screen and (max-width: 575px) {
-  .fancy-text-container h1 {
-    font-size: 1.5rem;
-  }
 }
 
 .fancy-text-container h1:nth-child(2) {
