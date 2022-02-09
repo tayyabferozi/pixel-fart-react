@@ -16,12 +16,12 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a href="https://discord.gg/QXcgRTcbrj">
+            <a href="https://twitter.com/PixelFartNFT">
               <i className="fab fa-twitter"></i>
             </a>
           </li>
           <li>
-            <a href="https://twitter.com/PixelFartNFT">
+            <a href="https://discord.gg/QXcgRTcbrj">
               <i className="fab fa-discord"></i>
             </a>
           </li>

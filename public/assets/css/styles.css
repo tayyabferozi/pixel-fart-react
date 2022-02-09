@@ -53,6 +53,16 @@ header > * {
   width: 33.33%;
 }
 
+main {
+  margin-top: 3rem;
+}
+
+@media screen and (max-height: 650px) {
+  main {
+    margin-top: 0;
+  }
+}
+
 .frame-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -60,7 +70,7 @@ header > * {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 0 2rem;
+  margin: 0 1rem;
 }
 
 img.nft-vector {
@@ -72,32 +82,34 @@ img.nft-vector {
   border-top-color: #ccb;
   max-height: 100%;
   max-width: 170px;
+  width: 170px;
+  height: 170px;
 }
 
 .frame-grid-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
 
-@media screen and (min-width: 576px) {
-  .frame-grid-container > * {
-    width: 50%;
-  }
-}
-
-@media screen and (max-width: 575px) {
-  .frame-grid-container > * {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    width: 100%;
-  }
+.frame-grid-container > * {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .frame {
@@ -247,7 +259,7 @@ img.nft-vector {
 }
 
 .qr-container .qr {
-  max-width: 80px;
+  max-width: 120px;
 }
 
 .fancy-text-container {
@@ -269,7 +281,7 @@ img.nft-vector {
 }
 
 .fancy-text-container h1 {
-  font-size: 1.125rem;
+  font-size: 13px;
   font-weight: 900;
   background-color: #000;
   color: #f2f9fe;
