@@ -36,13 +36,13 @@ function App() {
             loop={true}
           >
             <SwiperSlide>
-              <Frame img="./assets/img/nft.jpeg" />
-            </SwiperSlide>
-            <SwiperSlide>
               <Frame img="./assets/img/fart-1.jpeg" />
             </SwiperSlide>
             <SwiperSlide>
               <Frame img="./assets/img/fart-2.jpeg" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Frame img="./assets/img/nft.jpeg" />
             </SwiperSlide>
             <SwiperSlide>
               <Frame img="./assets/img/fart-3.jpeg" />
