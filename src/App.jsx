@@ -33,14 +33,7 @@ function App() {
                 slidesPerView: 1,
               },
             }}
-            autoplay={{
-              delay: 0,
-              disableOnInteraction: false,
-            }}
-            speed={2000}
             loop={true}
-            onSlideChange={() => console.log("slide change")}
-            onSwiper={(swiper) => console.log(swiper)}
           >
             <SwiperSlide>
               <Frame img="./assets/img/nft.jpeg" />
